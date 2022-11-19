@@ -6,6 +6,7 @@ function init () {
     vid.load ();
     vid.auotplay = false;
     vid.loop = false;
+    volText.textContent = volSlider.value
 };
 
 var play = document.getElementById('play');
